@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*INICIO SECCIION NAV*/
+    nav{
+        display: flex;
+       /* background-color: black;*/
+        justify-content: right;
+        padding: 25px 25px;
+        
+    }
+    svg{
+        width: 150px;
+        height: 100px;
+        border: 2px solid red;
+    }
+
+    
+
+    a{
+        border: 1px;
+        border-radius: 8px;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: rgb(230,221,196);
+        padding: 10px 10px;
+        margin-right: 35px;
+        text-decoration: none;
+        color: black;
+        box-shadow: 3px 3px 0px rgb(103,137,131);
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+/*FIN SECCION NAV*/
+
+/*INICIO SECCION MENU*/
+    .conteiner{
+        background-color: lightpink;
+        background-image: url("Imagenesjc/codigo.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+    
+    }
+
+    h1{
+        color: rgb(238,238,238);
+        text-align: center;
+        font-size: 55px;
+        padding: 110px;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 0px grey,
+                    7px 7px 0px black;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+/*CIERRE SECCION MENU*/
+
+/*INICIO SECCION MAIN*/
+
+    h2{
+        font-size: 35px;
+        color: rgb(103,137,131);
+        text-align: center;
+        text-transform: uppercase;
+        background-color: rgb(24,28,48);
+    }
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24,28,48);
+    padding: 80px 80px;
+    width: 85%;
+    height: 400px;
+}
+
+    .seccionUno{
+        padding: 0px 0px 50px 0px;
+        width: 40%;
+        background-color: rgb(230,221,196);
+        border-style: solid;
+        border-width: 5px;
+        border-color: rgb(103,137,131);
+    }
+
+        .seccionUno > img{
+            width: 100%;
+        
+        }
+
+    .seccionDos{
+        padding: 0px 0px 50px 0px;
+        width: 40%;
+        background-color: rgb(230,221,196);
+        border-style: solid;
+        border-width:  5px;
+        border-color: rgb(103,137,131);
+    }
+
+        .seccionDos > img{
+            width: 100%;
+        }
+
+        .seccionUno > button{
+    
+            background-color: rgb(24,28,48);
+            color: rgb(230,221,196);
+            margin: 90px  90px;
+            padding: 10px 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            width: 40%;
+            text-decoration: none;
+            box-shadow: 3px 3px 0px rgb(103,137,131);
+        }
+
+        .seccionDos > button{
+            margin: 110px 100px;
+            padding: 10px 10px;
+            color: rgb(230,221,196);
+            background-color: rgb(24,28,48);
+            border-radius: 8px;
+            font-size: 16px;
+            width: 40%;
+            text-decoration: none;
+            box-shadow: 3px 3px 0px rgb(103,137,131);
+        }
+        
+        
+
+
+/*FIN SECCION MAIN*/
+
+/*INMICIO PIE DE PAGINA*/
+footer{
+    background-color: rgb(103,137,131);
+    padding: 40px;
+    display: flex;
+   /*justify-content: space-around;*/
+   
+}
+
+    h3{
+        text-transform: uppercase;
+        font-size: 15px;
+        display: inline;
+        padding-right: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 15px;
+        display: inline;
+        padding-left: 20px;
+    }
+
+    img{
+        width: 15%;
+    }
+
+/*FIN PIE DE PAGINA*/
