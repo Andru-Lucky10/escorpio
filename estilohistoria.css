@@ -159,11 +159,13 @@ main{
 /*FIN SECCION VIDEO*/
 
 /*INICIO SECCIO PIE DE PAGINA*/
+
+
 footer{
     background-color: rgb(103,137,131);
     padding: 40px;
-    /*display: flex;*/
-   justify-content: space-around;
+    display: flex;
+   /*justify-content: space-around;*/
    
 }
 
@@ -173,25 +175,19 @@ footer{
         display: inline;
         padding-right: 20px;
         margin-right: 20px;
-        
-        
+        margin-left: 20px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 15px;
+        display: inline;
+        padding-left: 20px;
     }
 
     img{
         width: 15%;
     }
-
-    div > p{
-        text-align: justify;
-        font-size: 15px;
-        display: inline;
-        padding-left: 250px;
-        color: black;
-        margin: 5px;
-        
-    }
-
-
     
 
 /*FIN SECCION PIE DE PAGINA*/
